@@ -1,21 +1,24 @@
 import styled from "styled-components";
 
 export const ButtonStyle = styled.button`
-  width: 90%;
-  height: 50px;
+  width: 80%;
+  height: 70px;
   border-radius: 4px;
   outline: none;
   background-color: #3b5847;
   border: none;
-  color: white;
+  color: #bbb;
   transition: all 0.3s ease;
   opacity: 1;
-  font-size: 16px;
+  font-size: 20px;
   text-transform: capitalize;
-  font-weight: bold;
+  font-weight: 400;
+  position: absolute;
+  bottom: -50px;
+  z-index: 1000000;
 
   :hover {
-    opacity: 0.8;
+    width: 70%;
   }
 
   .loader {

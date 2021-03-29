@@ -1,10 +1,10 @@
 import React from "react";
-// import HomePage from "./screens/HomePage";
+import Register from "./pages/Register";
 
 function App() {
   return (
     <div className="App">
-      hello
+      <Register />
     </div>
   );
 }

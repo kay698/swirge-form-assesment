@@ -15,7 +15,7 @@ const Input = ({
   return (
     <FlexibleDiv flexDir="column" width="90%">
       <InputWrap>
-        <FlexibleDiv height="100%" justifyContents="space-between">
+        <FlexibleDiv height="100%" justifyContents="space-between" flexWrap="no-wrap">
           <input
             type={type}
             name={name}
@@ -27,9 +27,9 @@ const Input = ({
           <FlexibleDiv width="20px">{icon}</FlexibleDiv>
         </FlexibleDiv>
       </InputWrap>
-      {errorText && <span style={{fontSize="10px", width="100%", color="blue", margin="20px 0"}}>{errorText}</span>}
+      {errorText && <span style={{fontSize:"10px", width:"100%", color:"blue", margin:"20px 0"}}>{errorText}</span>}
     </FlexibleDiv>
-  );I
+  );
 };
 
 export default Input;

@@ -3,33 +3,28 @@ import styled from "styled-components";
 export const InputWrap = styled.div`
   width: 100%;
   height: 50px;
-  border-radius: 10px;
   background-color: inherit;
-  border: 2px solid #bbb;
+  border-bottom: 1px solid #282828;
   transition: all 0.3s ease;
+  margin: 20px 0;
   :hover {
-    height: 55px;
+    border-bottom: 1px solid #777777;
   }
 
   input {
-    width: 94%;
+    width: 90%;
     height: 100%;
     border: none;
-    background-color: inherit;
+    background-color: transparent;
     transition: all 0.3s ease;
     color: #777777;
-    font-size: 16px;
+    font-size: 14px;
     outline: none;
-    padding-left: 10px;
+    /* padding-left: 10px; */
+
   }
   svg {
-    font-size: 14px;
-    cursor: pointer;
+    font-size: 16px;
     color: #bbb;
-    transition: all 0.3s ease;
-
-    :hover {
-      font-size: 12px;
-    }
   }
 `;
